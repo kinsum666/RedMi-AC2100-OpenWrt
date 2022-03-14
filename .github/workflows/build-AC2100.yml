@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Build OpenWrt
+name: Build 2100
 
 on:
   repository_dispatch:
@@ -24,9 +24,9 @@ on:
 env:
   REPO_URL: ${{ github.event.inputs.repo_url }}
   REPO_BRANCH: ${{ github.event.inputs.repo_branch }}
-  CONFIG_FILE: OpenWrt.config
-  DIY_P1_SH: OpenWrt-part1.sh
-  DIY_P2_SH: OpenWrt-part2.sh
+  CONFIG_FILE: ac2100.config
+  DIY_P1_SH: AC2100-part1.sh
+  DIY_P2_SH: Ac2100-part2.sh
   UPLOAD_BIN_DIR: false
   UPLOAD_FIRMWARE: true
   UPLOAD_RELEASE: false
