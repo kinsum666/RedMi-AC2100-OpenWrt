@@ -27,8 +27,8 @@ env:
   CONFIG_FILE: ac2100.config
   DIY_P1_SH: AC2100-part1.sh
   DIY_P2_SH: Ac2100-part2.sh
-  UPLOAD_BIN_DIR: false
-  UPLOAD_FIRMWARE: true
+  UPLOAD_BIN_DIR: true
+  UPLOAD_FIRMWARE: false
   UPLOAD_RELEASE: false
   TZ: Asia/Shanghai
 
